@@ -1,0 +1,15 @@
+Summary
+Welcome to the Cloud Native Fundamentals course!
+
+Before building an application, it is common to go through a design phase to identify the main requirements and structure of an application. In correlation with the available resources, a team will choose the most suitable project architecture.
+
+In the industry, usually, the two main approaches that are usually referenced are monoliths and microservices. In this lesson, we will explore each architectural model and the implied trade-offs. As well, we will cover good development practices to be considered if an application is targeted for containerization. These practices are valid for both monolith and microservice architectures.
+
+This image has a list of sections covered in this lesson
+Architecture Considerations lesson outline
+
+In this lesson, we will cover:
+
+Monoliths and Microservices
+Trade-offs for Monoliths and Microservices
+Practices for Application Development

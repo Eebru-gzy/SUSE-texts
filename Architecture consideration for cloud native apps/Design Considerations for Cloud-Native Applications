@@ -1,0 +1,17 @@
+Summary
+When building an application it is important to allocate time for context discovery. This includes listing all necessary functionalities of the application and enumerating any resources that can enable its buildout. This phase sets the fundamentals of the project. If properly implemented, it can enable the creation of services that are scalable, resilient, and extensible.
+
+The first step in the context discovery process is to list the functional requirements, or what application capabilities should deliver to the end-users. For example, a good starting point is to expand on the following:
+
+Stakeholders
+Functionalities
+End users
+Input and output process
+Engineering teams
+The second step is to enumerate the available resources that facilitates the implementation of the project. For example, a good starting point is to list available:
+
+Engineering resources
+Financial resources
+Timeframes
+Internal knowledge
+Having a good understanding of functional requirements and available resources can lead to a simpler choice between monolithic and microservice-based architectures.
