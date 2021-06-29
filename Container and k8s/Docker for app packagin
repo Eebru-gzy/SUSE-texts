@@ -123,3 +123,4 @@ New terms
 Dockerfile - set of instructions used to create a Docker image
 Docker image - a read-only template used to spin up a runnable instance of an application
 Docker registry - a central mechanism to store and distribute Docker images
+
