@@ -1,0 +1,44 @@
+Deploy Your First Kubernetes Cluster
+Cluster Creation
+
+Summary
+Provisioning a Kubernetes cluster is known as the bootstrapping process. When creating a cluster, it is essential to ensure that each node had the necessary components installed. It is possible to manually provision a cluster, however, this implied the distribution and execution of each component independently (e.g. kube-apiserver, kube-scheduler, kubelet, etc.). This is a highly tedious task that has a higher risk of misconfiguration.
+
+As a result, multiple tools emerged to handle the bootstrapping of a cluster automatically. For example:
+
+Production-grade clusters
+kubeadm
+Kubespray
+Kops
+K3s
+Developmnet-grade clusters
+kind
+minikube
+k3d
+A good introduction to k3d, written by k3d's creator Thorsten Klein, can be found here
+
+A comprehensive overview of currently existing lightweight kubernetes distros can be found here
+
+Create Vagrant Box And Install Kubernetes with k3s
+This demo is a step-by-step guide on how to create a vagrant box and install a Kubernetes cluster using k3s. To follow this demo, reference the Vagrantfile from the course repository.
+
+A nice introduction to Vagrant can be found in this article
+
+Before following the demo:
+
+Make sure to have VirtualBox 6.1.16 or higher installed.
+You also need to install vagrant on your machine.
+
+Throughout the demo, the following kubectl commands are used:
+
+# Inspect available vagrant boxes 
+vagrant status 
+
+# create a vagrant box using the Vagrantfile in the current directory
+vagrant up
+
+# SSH into the vagrant box
+# Note: this command uses the .vagrant folder to identify the details of the vagrant box
+vagrant ssh
+New terms
+Bootstrap - the process of provisioning a Kubernetes cluster, by ensuring that each node has the necessary components to be fully operational
